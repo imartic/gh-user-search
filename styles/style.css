@@ -1,0 +1,60 @@
+body{
+    padding: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+#user{
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: all ease-in .2s;
+}
+#user:hover, #user:focus{
+    outline: none;
+    border-color:#35f;
+}
+
+.search{
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #35f;
+    border-radius: 3px;
+    background-color: #35f;
+    color: white;
+}
+.search:hover, .search:focus{
+    cursor: pointer;
+    outline: none;
+    border-color: #139;
+}
+
+#msg{
+    background-color: rgba(200, 20, 20, .2);
+    border-radius: 3px;
+    padding: 8px;
+    text-align: center;
+}
+
+#userData{
+    margin-top: 40px;
+}
+
+#bio{
+   margin-top: -15px;
+   margin-bottom: 35px; 
+   font-weight: 300;
+}
+
+#repos{
+    list-style: none;
+    padding: 0;
+}
+
+#repos li{
+    margin-bottom: 10px;
+}
+#repos li a{
+    text-decoration: none;
+}
